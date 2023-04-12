@@ -1,0 +1,132 @@
+[
+    {
+        "username": "김승빈",
+        "email": "sbk9sd30123@naver.com",
+        "password": "Rhrlemfma123!",
+        "dateOfBirth": {
+            "day": "5",
+            "month": "3",
+            "year": "2022"
+        }
+    },
+    {
+        "username": "zxc",
+        "email": "zxc@zxc.zxc",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "2",
+            "month": "4",
+            "year": "2021"
+        }
+    },
+    {
+        "username": "인호성",
+        "email": "qwe@qwe.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "3",
+            "month": "5",
+            "year": "2022"
+        }
+    },
+    {
+        "username": "인호성",
+        "email": "dlsghtjd3982@naver.com",
+        "password": "Ghtjd3982!",
+        "dateOfBirth": {
+            "day": "4",
+            "month": "5",
+            "year": "2022"
+        }
+    },
+    {
+        "username": "김승빈",
+        "email": "sbk930123@naver.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "23",
+            "month": "1",
+            "year": "2023"
+        }
+    },
+    {
+        "username": "박유림",
+        "email": "pyr@naver.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "3",
+            "month": "4",
+            "year": "2021"
+        }
+    },
+    {
+        "username": "이예진",
+        "email": "qwe@zxc.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "7",
+            "month": "2",
+            "year": "2022"
+        }
+    },
+    {
+        "username": "박박박",
+        "email": "qowhs101@naver.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "8",
+            "month": "2",
+            "year": "2022"
+        }
+    },
+    {
+        "username": "두두다",
+        "email": "mnb@mnb.zxc",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "2",
+            "month": "3",
+            "year": "2023"
+        }
+    },
+    {
+        "username": "\bsad",
+        "email": "qwe@asd.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "5",
+            "month": "4",
+            "year": "2022"
+        }
+    },
+    {
+        "username": "박유림",
+        "email": "jml990401@naver.com",
+        "password": "Qkrdbfla735@",
+        "dateOfBirth": {
+            "day": "1",
+            "month": "4",
+            "year": "1999"
+        }
+    },
+    {
+        "username": "그학학",
+        "email": "123@zxc.zxc",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "28",
+            "month": "9",
+            "year": "2021"
+        }
+    },
+    {
+        "username": "dsfgjkbdfgslnjk",
+        "email": "sdfknl@sdfglbj.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "2",
+            "month": "5",
+            "year": "2023"
+        }
+    }
+]
