@@ -100,9 +100,10 @@ app.post('/login', (req, res) => {
 // 게시판 관련 요청 //
 
 app.post('/api/newPost', (req, res) => {
-  const { title, content } = req.body;
+  const { title, content, author } = req.body;
+
   const postId = uuid.v4();
-  const post = { postId, title, content };
+  const post = { postId, title, content, author };
 
   fs.readFile('./posts.json', (err, data) => {
     if (err) {
@@ -120,6 +121,38 @@ app.post('/api/newPost', (req, res) => {
           res.send({ success: true, message: 'Post successfully saved.' });
         }
       });
+    }
+  });
+});
+
+app.get('/api/getPosts', (req, res) => {
+  fs.readFile('./posts.json', (err, data) => {
+    if (err) {
+      console.error(err);
+      res.status(500).send({ success: false, message: 'Failed to read post data.' });
+    } else {
+      const posts = JSON.parse(data);
+      res.send({ success: true, posts });
+    }
+  });
+});
+
+app.get('/api/posts/:postId', (req, res) => {
+  const { postId } = req.params;
+
+  fs.readFile('./posts.json', (err, data) => {
+    if (err) {
+      console.error(err);
+      res.status(500).send({ success: false, message: 'Failed to read post data.' });
+    } else {
+      const posts = JSON.parse(data);
+      const post = posts.find((post) => post.postId === postId);
+
+      if (!post) {
+        res.status(404).send({ success: false, message: 'Post not found.' });
+      } else {
+        res.send({ success: true, post });
+      }
     }
   });
 });
