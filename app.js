@@ -97,4 +97,31 @@ app.post('/login', (req, res) => {
   });
 });
 
+// 게시판 관련 요청 //
+
+app.post('/api/newPost', (req, res) => {
+  const { title, content } = req.body;
+  const postId = uuid.v4();
+  const post = { postId, title, content };
+
+  fs.readFile('./posts.json', (err, data) => {
+    if (err) {
+      console.error(err);
+      res.status(500).send({ success: false, message: 'Failed to read post data.' });
+    } else {
+      const posts = JSON.parse(data);
+      posts.push(post);
+
+      fs.writeFile('./posts.json', JSON.stringify(posts, null, 4), (err) => {
+        if (err) {
+          console.error(err);
+          res.status(500).send({ success: false, message: 'Failed to save the post.' });
+        } else {
+          res.send({ success: true, message: 'Post successfully saved.' });
+        }
+      });
+    }
+  });
+});
+
 
