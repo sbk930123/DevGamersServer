@@ -76,5 +76,17 @@
         "title": "qwe",
         "content": "<p>qwe</p>",
         "author": "박유림"
+    },
+    {
+        "postId": "b3645b56-614c-46ae-afa0-2cf894af45a6",
+        "title": "테스트중입니다.",
+        "content": "<h1>qfswfasgfasdgdsfsdf<strong>asdfsdfsdf</strong><strong style=\"color: rgb(230, 0, 0);\">sdfsdfsdf</strong><strong style=\"color: rgb(230, 0, 0); background-color: rgb(102, 185, 102);\">sdfsdfsdf<u>sdfsdfsdfsdf</u></strong></h1>",
+        "author": "김승빈"
+    },
+    {
+        "postId": "fc9cf87f-b58c-4537-9a5c-fe9aebf2fb6a",
+        "title": "sdadsagdgsa",
+        "content": "<p>dsagdgsagadfsgdsfa</p>",
+        "author": "이예진"
     }
 ]
