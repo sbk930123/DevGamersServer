@@ -128,5 +128,15 @@
             "month": "5",
             "year": "2023"
         }
+    },
+    {
+        "username": "김승빈",
+        "email": "sbk930124@naver.com",
+        "password": "Qwerwer!",
+        "dateOfBirth": {
+            "day": "6",
+            "month": "3",
+            "year": "2021"
+        }
     }
 ]
